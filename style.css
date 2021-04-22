@@ -11,6 +11,8 @@ body {
     color:#000000;
     border: 5px solid #000000;
     border-radius: 20px;
+    width:1000px;
+    position: center;
 }
 
 .conteudo {
@@ -19,6 +21,7 @@ body {
     padding: 10px;
     border-radius: 20px;
     height: 400px;
+    width: 1000px;
 }
 
 p {
@@ -29,18 +32,21 @@ p {
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 40px;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-left: 150px;
 }
 
 p1 {
+    position: absolute;
     color:#000000;
-    font-size:20px;
+    font-size:17px;
     font-weight:bold;
-    font-family: Comic Sans MS;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 40px;
+    margin-top:;
+    margin-left:-100px;
 }
 
 p2 {
@@ -56,5 +62,8 @@ p2 {
 
 .imagem {
     position: static;
-    margin-bottom: 5000px;
+    width:200px;
+    margin-top: -50px;
+    margin-left: -500px;
+    border-radius: 10px;
 }
